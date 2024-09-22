@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+}
+
+.navButtons {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff; /* White background for buttons */
+    color: #4CAF50; /* Green text */
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #e7e7e7; /* Light grey on hover */
+}
